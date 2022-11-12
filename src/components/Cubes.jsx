@@ -1,21 +1,21 @@
 import React from "react"
-import cube1 from '../picture/dice-1.png'
-import cube2 from '../picture/dice-2.png'
-import cube3 from '../picture/dice-3.png'
-import cube4 from '../picture/dice-4.png'
-import cube5 from '../picture/dice-5.png'
-import cube6 from '../picture/dice-6.png'
+import cube1 from "../picture/cube1.png"
+ import cube2 from "../picture/cube2.png"
+ import cube3 from "../picture/cube3.png"
+ import cube4 from "../picture/cube4.png"
+ import cube5 from "../picture/cube5.png"
+ import cube6 from '../picture/cube6.png'
 
 const Cubes = ({data}) => {
 
     const cubesSrc = {
         0: cube1,
-        1: cube1,
-        2: cube2,
-        3: cube3,
-        4: cube4,
-        5: cube5,
-        6: cube6
+         1: cube1,
+         2: cube2,
+         3: cube3,
+         4: cube4,
+         5: cube5,
+         6: cube6
     }
     
     return (
