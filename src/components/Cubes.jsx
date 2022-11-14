@@ -9,7 +9,7 @@ import cube1 from "../picture/cube1.png"
 const Cubes = ({data}) => {
 
     const cubesSrc = {
-        0: cube1,
+         0:cube1,
          1: cube1,
          2: cube2,
          3: cube3,
