@@ -59,15 +59,15 @@ const Game = () => {
         },
             turn: data.turn === 1 ? 2 : 1,
         })
-        const lastTurn = data.turn === 1 ? 2 : 1
+        // const lastTurn = data.turn === 1 ? 2 : 1
     
         console.log(data)
     }
     
     //initialize the game
-    const gameInit = () => {
-        setToggleModal(true)
-    }
+    // const gameInit = () => {
+    //     setToggleModal(true)
+    // }
 
     return (
         <>
